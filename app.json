@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "CarUi",
-    "slug": "CarUi",
+    "name": "carUI-Fixe",
+    "slug": "carUI-Fixe",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#DCDCDC"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -20,11 +20,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#DCDCDC"
+      },
+      "package": "com.yoschigamer.carUIFixe"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3c2154ac-69ad-4d57-8c88-c0aabbab8e5d"
+      }
     }
   }
 }
